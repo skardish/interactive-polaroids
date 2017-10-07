@@ -51,3 +51,15 @@ html {
   transform: rotate(-5deg);
   z-index: 1000;
 }
+
+.polaroid:last-child {
+  left: 40%;
+  top: 100px;
+  transform: rotate(33deg);
+  z-index: 2;
+}
+
+.polaroid:last-child:hover {
+  transform: rotate(-33deg);
+  z-index: 1000;
+}
