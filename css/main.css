@@ -38,3 +38,16 @@ html {
 .polaroid:first-child:hover {
   transform: rotate(12deg);
   z-index: 1000;
+}
+
+.polaroid:nth-child(2) {
+  left: 30%;
+  top: 150px;
+  transform: rotate(5deg);
+  z-index: 3;
+}
+
+.polaroid:nth-child(2):hover {
+  transform: rotate(-5deg);
+  z-index: 1000;
+}
